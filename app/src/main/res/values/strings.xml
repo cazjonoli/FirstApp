@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Waddup!</string>
+    <string name="randomNum_name">Number Generator</string>
+    <string name="home_name">Home</string>
+    <string name="singleNote_name">Single Note</string>
+    <string name="reminderapp_name">Reminder App</string>
+    <string name="ok_button">OK</string>
+    <string name="which_numbers">Between Which Numbers? 0-?</string>
+    <string name="placeholder">placeholder</string>
+
+    <!--Error messages-->
+    <string name="no_value_error">No value entered!</string>
+    <string name="value_too_large">Value too large!</string>
+    <string name="unknown_error">Unknown Error!</string>
+</resources>

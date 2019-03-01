@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tidittii.firstandroidapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_own_version"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_own_version_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+                android:label="@string/home_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" /><!--This is just to remove the google search "error"-->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RandNumGenActivity"
+            android:label="@string/randomNum_name" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <activity android:name=".SingleNoteActivity"
+            android:label="@string/singleNote_name">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".ReminderAppActivity"
+            android:label="@string/reminderapp_name">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
